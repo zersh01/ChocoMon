@@ -341,7 +341,7 @@ namespace ChocoMon
                     //If available -> Check update
                     string TempDir = Path.GetTempPath();
                     WebClient webClient = new WebClient();
-                    webClient.DownloadFile("https://raw.githubusercontent.com/zersh01/ChocoMain/master/InstallChocoMaint/latest.txt", TempDir + "\\latest.txt");
+                    webClient.DownloadFile("https://raw.githubusercontent.com/zersh01/ChocoMon/master/InstallChocoMon/latest.txt", TempDir + "\\latest.txt");
 
                     string LatestVersion = TempDir + "\\latest.txt";
 
