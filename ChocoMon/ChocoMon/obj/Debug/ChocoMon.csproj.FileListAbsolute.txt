@@ -1,0 +1,12 @@
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\bin\Debug\ChocoMon.exe.config
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\bin\Debug\ChocoMon.exe
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\bin\Debug\ChocoMon.pdb
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\obj\Debug\ChocoMon.csprojResolveAssemblyReference.cache
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\obj\Debug\ChocoMon.Form1.resources
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\obj\Debug\ChocoMon.Properties.Resources.resources
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\obj\Debug\ChocoMon.csproj.GenerateResource.Cache
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\obj\Debug\ChocoMon.exe
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\obj\Debug\ChocoMon.pdb
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\bin\Debug\HtmlAgilityPack.dll
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\bin\Debug\HtmlAgilityPack.pdb
+D:\YandexDisk\backup\Chocolatey\MyProject\ChocoMon\ChocoMon\ChocoMon\bin\Debug\HtmlAgilityPack.xml
