@@ -158,8 +158,13 @@ namespace ChocoMon
 
             //Get image status and sent to AddNewPictureBox
             HtmlNode ImageStatus = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[2]/a/img");
+            if (ImageStatus == null)
+            {
+                ImageStatus = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[3]/a/img");
+            }
+            
             AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
-
+            
             TextBox txt2 = new TextBox();
             this.Controls.Add(txt2);
             txt2.Top = B * 10;

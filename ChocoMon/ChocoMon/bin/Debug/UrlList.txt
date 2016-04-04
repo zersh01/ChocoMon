@@ -1,5 +1,1 @@
-https://chocolatey.org/packages/chocolatey/0.9.9.12
-https://chocolatey.org/packages/chocomaint/1.0.3.4
-https://chocolatey.org/packages/adobeshockwaveplayer
-https://chocolatey.org/packages/python
-https://chocolatey.org/packages/virtualbox
+https://chocolatey.org/packages/chocomon/1.0.0.1
