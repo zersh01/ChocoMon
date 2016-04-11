@@ -14,7 +14,7 @@
 
 </description>
     <projectUrl>https://github.com/zersh01/ChocoMon</projectUrl>
-    <tags>ChocoMon monitoring Chocolatey</tags>
+    <tags>ChocoMon monitoring </tags>
     <copyright>S.Parchomenko</copyright>
     <licenseUrl>https://en.wikipedia.org/wiki/GNU_General_Public_License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

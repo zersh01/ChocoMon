@@ -142,8 +142,10 @@ namespace ChocoMon
             // Создаём экземпляр класса
             HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
             // Присваиваем текстовой переменной k html-код
+
             WebClient webClient = new WebClient();
             string PageIn = webClient.DownloadString(URL);
+            //string PageIn = webClient.DownloadString("2.html");
             // Загружаем в класс (парсер) наш html
             doc.LoadHtml(PageIn);
             //получить нужны код для ноды можно через среду разработки хрома - копируется необходимы кусок как 
@@ -157,13 +159,29 @@ namespace ChocoMon
             //MessageBox.Show(bodyNode.Attributes["stat-number"].Value);
 
             //Get image status and sent to AddNewPictureBox
-            HtmlNode ImageStatus = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[2]/a/img");
-            if (ImageStatus == null)
+            //work
+            //HtmlNode ImageStatus = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[2]/a/img");
+            HtmlNode ImageStatus;
+            HtmlNode GreenRedBall = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[2]/a/img");
+            HtmlNode GreyBall = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[2]/img");
+            HtmlNode YellowBall = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[3]/img");
+
+            if (GreenRedBall !=null)
             {
-                ImageStatus = doc.DocumentNode.SelectSingleNode("//*[@id='mainColumn']/div[1]/div[1]/h2[3]/a/img");
+                 ImageStatus = GreenRedBall;
+                 AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
             }
-            
-            AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
+            else if (GreyBall != null)
+            {
+                 ImageStatus = GreyBall;
+                 AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
+            }
+            else if (YellowBall != null)
+            {
+                 ImageStatus = YellowBall;
+                 AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
+            }
+           
             
             TextBox txt2 = new TextBox();
             this.Controls.Add(txt2);

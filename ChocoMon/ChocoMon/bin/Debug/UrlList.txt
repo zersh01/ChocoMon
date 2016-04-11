@@ -1,1 +1,4 @@
 https://chocolatey.org/packages/chocomon/1.0.0.1
+https://chocolatey.org/packages/k-litecodecpackmega/12.0.5
+https://chocolatey.org/packages/TimRayburn.GitAliases/1.0.4
+https://chocolatey.org/packages/python
