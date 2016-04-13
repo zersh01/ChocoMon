@@ -225,7 +225,7 @@
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(58, 20);
             this.textBox3.TabIndex = 11;
-            this.textBox3.Text = "1.0.0.1";
+            this.textBox3.Text = "1.0.1.1";
             // 
             // Form1
             // 

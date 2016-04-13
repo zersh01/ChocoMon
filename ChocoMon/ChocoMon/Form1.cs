@@ -90,7 +90,7 @@ namespace ChocoMon
             //очищаем форму
             new_groupBox.Controls.Clear();
 
-            new_groupBox.Height = 500;
+            new_groupBox.Height = 1000;
             new_groupBox.Width = 500;
             this.Controls.Add(new_groupBox);
 
