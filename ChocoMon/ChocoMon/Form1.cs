@@ -169,25 +169,21 @@ namespace ChocoMon
                                                                    
             if (GreenRedBall !=null)
             {
-                MessageBox.Show("1");
                  ImageStatus = GreenRedBall;
                  AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
             }
             else if (GreenRedBall2 != null)
             {
-                MessageBox.Show("1.1");
                 ImageStatus = GreenRedBall2;
                 AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
             }
             else if (GreyBall != null)
             {
-                MessageBox.Show("2");
                 ImageStatus = GreyBall;
                  AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
             }
             else if (YellowBall != null)
             {
-                MessageBox.Show("3");
                 ImageStatus = YellowBall;
                  AddNewPictureBox(ImageStatus.Attributes["src"].Value, ImageStatus.Attributes["alt"].Value, URL);
             }
