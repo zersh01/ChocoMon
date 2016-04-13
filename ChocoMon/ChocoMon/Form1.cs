@@ -126,7 +126,7 @@ namespace ChocoMon
             txt.Left = 45;
             //set string from app.config
             txt.Text = URL;
-            txt.Width = 300;
+            txt.Width = 350;
             txt.ReadOnly = true;
             A = A + 3;
             new_groupBox.Controls.Add(txt);
@@ -186,7 +186,7 @@ namespace ChocoMon
             TextBox txt2 = new TextBox();
             this.Controls.Add(txt2);
             txt2.Top = B * 10;
-            txt2.Left = 370;
+            txt2.Left = 415;
             txt2.Width = 63;
             txt2.ReadOnly = true;
             txt2.Text = PackageStatNum.InnerText;
